@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>GPS device</name>
+    <snippet>Created sáb. feb. 9 08:26:26 2019</snippet>
+    <LookAt>
+      <longitude>-77.641296</longitude>
+      <latitude>-0.070095</latitude>
+      <range>1300.000000</range>
+    </LookAt>
+    <!-- Normal waypoint style -->
+    <Style id="waypoint_n">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <!-- Highlighted waypoint style -->
+    <Style id="waypoint_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#waypoint_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#waypoint_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Waypoints</name>
+      <Placemark>
+        <name>2530.957520</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-77.641560,-0.070369</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2524.478027</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-77.641033,-0.070364</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2527.597656</name>
+        <styleUrl>#waypoint</styleUrl>
+        <Point>
+          <coordinates>-77.641529,-0.069820</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
