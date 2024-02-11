@@ -1,7 +1,7 @@
 # MIT CLASS
 date: Feb 11, 2024
 
-Repository for infrasound waveforms: CON
+Data repository for infrasound waveforms: CON
 
 Citations:
 
