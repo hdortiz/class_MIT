@@ -1,5 +1,5 @@
 # MIT CLASS
-date: Feb 11, 2024
+date: Feb 12, 2024
 
 Data repository for infrasound waveforms: CON
 
