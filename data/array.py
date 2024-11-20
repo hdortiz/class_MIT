@@ -83,8 +83,6 @@ s[0,1] = m[1]
 
 
 theta = np.arctan(m[1]/ m[0])
-c = np.cos(theta)/m[0]
-
 bka = bkaz(s[:,0],s[:,1])
 
 
