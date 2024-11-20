@@ -55,6 +55,9 @@ con = lag01-lag02+lag12
     
 d = np.array([lag01,lag02,lag12])
 m = np.linalg.inv(G.T @ G) @ (G.T @ d)
+#%%
+
+theta = np.arctan(m[1]/ m[0])
 
     
 #%%
@@ -82,7 +85,6 @@ s[0,0] = m[0]
 s[0,1] = m[1]
 
 
-theta = np.arctan(m[1]/ m[0])
 bka = bkaz(s[:,0],s[:,1])
 
 
